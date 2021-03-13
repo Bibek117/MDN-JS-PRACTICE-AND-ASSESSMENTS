@@ -1,0 +1,41 @@
+.msgBox{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    height:100px;
+    width:280px;
+    border-radius: 20px;
+   background: #e0e0e0;
+   box-shadow:  5px 5px 10px #5a5a5a,
+             -5px -5px 10px #ffffff;
+}
+body{
+    background-color: #e0e0e0;
+    box-sizing:border-box;
+}
+#mainbutton{
+    border-radius: 5px;
+background: #e0e0e0;
+box-shadow:  5px 5px 10px #5a5a5a,
+             -5px -5px 10px #ffffff;
+    outline: none;
+}
+.msgBox p{
+    line-height: 1.5;
+    padding-top:10px;
+    color:black;
+    padding-left:100px;
+    background-repeat: no-repeat;
+    background-position: 25px center ;
+}
+.msgBox button{
+    position: absolute;
+    top:20px;
+    right:20px;
+    color:red;
+    font-size: 1.1rem;
+    background: none;
+    border:1px solid black;
+    border-radius: 2px;
+}
