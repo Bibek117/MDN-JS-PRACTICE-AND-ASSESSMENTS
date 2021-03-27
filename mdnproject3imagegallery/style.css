@@ -1,18 +1,38 @@
-h1 {
+*{
+  margin :0;
+  padding:0;
+  box-sizing: border-box;
+}
+#header {
   font-family: helvetica, arial, sans-serif;
   text-align: center;
+  color:white;
+  background-color: black;
 }
 
 body {
-  width: 640px;
-  margin: 0 auto;
+  margin :0;
+  height: 750px;
+  background-image: linear-gradient(to right top, #12f45e, #00fcb4, #4cffec, #adfdff, #f6f9fa);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-
+#mainbox{
+  width: 640px;
+   margin: 0 auto; 
+   position: relative;
+   top:100px;
+}
 .full-img {
-  position: relative;
+   position: relative; 
   display: block;
   width: 640px;
   height: 480px;
+}
+.displayed-img{
+  width:640px;
+  height:480px;
 }
 
 .overlay {
@@ -25,10 +45,9 @@ body {
 }
 
 button {
-  border: 0;
+  border: 2px solid black;
   background: rgba(150,150,150,0.6);
   text-shadow: 1px 1px 1px white;
-  border: 1px solid #999;
   position: absolute;
   cursor: pointer;
   top: 2px;
